@@ -4,9 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Style/style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Hi</h1>
+    <!-- Navbar -->
+    <div class="navbar">
+         <div class="left-nav">
+            <a href="index.html" target="_blank">
+                <img src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png">
+            </a>
+         </div>
+         <div class="middle-nav">
+            <div><a href="#">Jobs</a></div>
+            <div><a href="#">Companies</a></div>
+            <div><a href="#">Services</a></div>
+            <div><a href="#">Resources</a></div>
+         </div>
+         <div class="right-nav">
+            <div><button class="loginbtn">Login</button></div>
+            <div><button class="registerbtn">Register</button></div>
+            <div id="pipe"></div>
+            <div id="emp">For employers</div><span class="drpdwn"></span>
+         </div>
+    </div>
+    <!-- Header -->
+    <div class="header">
+          <h1>Find your dream job now</h1>
+          <div>5 lakh+ jobs for you to explore</div>
+    </div>
+    <!-- Search -->
+    <div class="Wrapper ">
+         <div>
+             <div class="logoContainer">
+                 <img src="https://static.naukimg.com/s/7/103/i/search.9ec0e1ac.svg" id="searchIcon">
+                    <input type="text" placeholder="Enter Skills / designations / companies" class="sugginput" id="input1">
+                    <div class="pipe1"></div>
+                    <input type="text" placeholder="Enter location" class="sugginput" id="input2">
+                    <div class="pipe1"></div>
+                    <!-- <input type="text" placeholder="Select Experience" class="sugginput" id="input3"><select></select> -->
+                    <select id="input3" class="sugginput">
+                            <option value="">Select Experience</option>
+                            <!-- Available Options -->
+                            <option value="1">Freshers</option>
+                            <option value="2">1 year</option>
+                            <option value="3">2 years</option>
+                            <option value="4">3 years</option>
+                            <option value="5">4 years</option>
+                            <option value="6">5 years</option>
+                            
+                    </select>
+                   
+                    <input type="submit" class="search" value="Search">
+             </div>
+         </div>
+    </div>
+    <!-- Widget -->
+    <div class="widget-container">
+        <div class="wid-head-container">
+            <div>1. Get discovered
+               <img src="https://static.naukimg.com/s/7/0/assets/images/src/widgets/naukri-homepage-register-wdgt/v1/assests/arrow.d7d6b137.svg">
+            </div>
+            <div>2. Get contacted</div>
+            <div>3. Get hired</div>
+        </div>
+        <div class="widget-logo">
+            <div>
+                <img src="https://img.naukimg.com/logo_images/groups/v1/36136.gif" alt="">
+                <img src="https://img.naukimg.com/logo_images/groups/v1/7450.gif" alt="">
+
+                
+            </div>
+            <div>
+                <img src="https://img.naukimg.com/logo_images/groups/v1/619188.gif" alt="">
+                <img src="https://img.naukimg.com/logo_images/groups/v1/614576.gif" alt="">
+            </div>
+        </div>
+        <div class="detail-container">
+            <div>Become searchable by top companies in your domain</div>
+            <div>Companies search for candidate CVs directly for open positions</div>
+            <a href="#" style="text-decoration: none;">Register Now</a>
+        </div>
+    </div>
+    <!-- Trending on Naukri -->
+    <h2 style="text-align: center;">Trending on Naukri today </h2>
+    <div class="trendnaukri">
+    
+    </div>
 </body>
 </html>
