@@ -1,6 +1,9 @@
 *{
     font-family: 'Inter', sans-serif;
 }
+h2{
+    text-align: center;
+}
 .navbar{
     display: flex;
 }
@@ -131,6 +134,10 @@
 }
 input::placeholder{
     color: #9098b5;
+    
+}
+input,select{
+    outline: none;
 }
 .pipe1{
 background: #eaf1f5;
