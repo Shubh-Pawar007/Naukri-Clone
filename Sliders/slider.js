@@ -1,12 +1,14 @@
 
-var left = 1;
-var right = 5;
+let left=1;
+let right=5;
+ let l=1;
+ let r=5;
 function show() {
+ 
 
-
-  for (m = left; m <= right; m++) {
-    document.getElementById("c" + m).style.display = "inline-block";
-    document.getElementById("d" + m).style.display = "inline-block";
+  for (i = left; i <= right; i++) {
+    document.getElementById("c" + i).style.display = "inline-block";
+    document.getElementById("d" + i).style.display = "inline-block";
   }
 
 }
@@ -26,15 +28,15 @@ function moveleft() {
   }
 }
 function moveright() {
-   debugger;
 
+  // console.log("before",left,right)
   if (left <= 3 && right <= 7) {
     document.getElementById("c" + left).style.display = "none";
 
-    left++;
-    right++;
-    for (j = left; j <= right; j++) {
-      document.getElementById("c" + j).style.display = "inline-block";
+    left+=1;//left=2
+    right+=1;//right=6
+    for (i= left; i <= right; i++) {
+      document.getElementById("c" + i).style.display = "inline-block";
   
     }
     
@@ -42,33 +44,44 @@ function moveright() {
   else {
     return;
   }
-debugger;
+   console.log(left,right);
 }
-console.log(left,right);
+
 function Next() {
-  if (left <= 3 && right <= 7) {
-    document.getElementById("d" + left).style.display = "none";
-    left++;
-    right++;
-    for (k = left; k <= right; k++) {
+  
+  console.log("2nd sldier",l,r);
+   if(l<=3 && r<=7){
+    document.getElementById("d" + l).style.display = "none";
+    l+=1;
+    r+=1;
+    console.log("fter",l,r);
+    for (k = l; k <= r; k++) {
       document.getElementById("d" + k).style.display = "inline-block";
 
     }
-  }
-  else {
+  
+  
+   }
+   else {
     return;
   }
+    // console.log("globl",left,right)
 }
+
 function prev() {
-  if (left >= 2 && right >= 6) {
-  document.getElementById("d" + right).style.display = "none";
-    left--;
-    right--;
-    for (l = left; l<= right; l++) {
-      document.getElementById("d" + l).style.display = "inline-block";
+  
+// console.log("in prev",l,r)
+  if (l >= 2 && r >= 6) {
+    
+  document.getElementById("d" + r).style.display = "none";
+    l--;
+    r--;
+    for (j = l; j<= r; j++) {
+      document.getElementById("d" + j).style.display = "inline-block";
     }
   }
   else {
     return;
   }
+ 
 }
