@@ -1,5 +1,82 @@
 #videoProfile{
-    width: 80%;
+    display: grid;
+    grid-template-columns: 40%  10% 40%;
+    width: 90%;
     margin: auto;
-    border: 1px solid red;
+    height: 330px;
+    background-color: #f7f8ff;
+    padding-left: 40px;
+}
+.vidproTitle{
+    color: #1b2437;
+    width: 90%;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: left;
+    margin: 64px 0px 10px 0px;
+}
+.vidproTitle + p{
+    color: #8292b4;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin: 10px 0px 16px 0px
+}
+#videoInput {
+    background: #ffffff;
+    border: 1px solid #d3e1ea;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #041a3e;
+    min-width: 259px;
+    text-align: left;
+    height: 44px;
+    padding: 14px 30px 14px 16px
+}
+
+#videoSubmit{
+    border: 0px;
+    background-color: #457eff;
+    border-radius: 20px;
+    margin: 6px 0px 6px 0px;
+    padding: 6px 16px;
+    color: #ffffff;
+    margin-left: -88px;
+    z-index: 1;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    font-family: Inter;
+    cursor: pointer;
+}
+#videoProfile > div:first-child{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#videoLogo{
+    /* margin-left: 10px; */
+    margin-top: 10px;
+}
+#qrCode{
+    width: 100px;
+    height: 100px;
+    margin-top: 120px;
+    background: #ffffff;
+    border: 1px solid #c3f0ff;
+    padding: 10px;
+    border-radius: 12px;
+
+}
+#qrCode + p{
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: center;
 }
