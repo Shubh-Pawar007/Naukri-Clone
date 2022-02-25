@@ -24,15 +24,15 @@ jobDataArr.map(function (elem){
   btn.setAttribute("class","saveButton");
   btn.innerText="Save the Job";
   btn.addEventListener("click",function(){
-    saveJob(data);
+    saveJob(elem);
   })
   innerdiv.append(p,c,e,s,l,d,btn);
  
   document.querySelector("#jobs").append(innerdiv);
 
-  function saveJob(data){
-    console.log(data);
-    saveJobarr.push(data)
+  function saveJob(elem){
+    console.log(elem);
+    saveJobarr.push(elem)
     console.log(saveJobarr);
     localStorage.setItem("savedJob",JSON.stringify(saveJobarr));
   }
