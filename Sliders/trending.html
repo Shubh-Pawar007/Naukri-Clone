@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+<head >
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slider</title>
-    <link rel="stylesheet" href="/Sliders/slider.css">
-
+    <link rel="stylesheet" href="/style/slider.css">
+    <link rel="stylesheet" href="/style/trending.css">
+    <title>Document</title>
 </head>
-
 <body onload="show()">
-    <h1 style="text-align: center;">Trending on Naukri today</h1>
-    <!-- Slideshow container -->
-    <div id="Slidhsow-container">        
+    <!-- Trend Companies -->
+
+    <div id="Slidhsow-container">     
+        <h2 id="trendHead">Trending on Naukri today</h2>   
         <div id="main-slider">
             <!-- --left arrow  -->
             <div id="arrow">
@@ -190,8 +189,44 @@
 
     </div>
     
+    
+<!-- Discover job div -->
 
-    <script src="/Sliders/slider.js" type="text/javascript"></script>
+<div class="discoverJob">
+ <div id="discoverContainer">
+     <img src="https://static.naukimg.com/s/0/0/i/role-collection.png" id="discoverLogo">
+     <p id="discoverHead">Discover jobs across popular roles</p>
+     <p id="">Select a role and we'll show you relevant jobs for it!</p>
+ </div>
+<div>
+    <div>
+        <p>Full Stack Developer</p>
+        <p>97.4K+ Jobs <span></span></p>
+     </div>
+     <div>
+        <p>Front End Developer</p>
+        <p>2.3K+ Jobs</p>
+     </div>
+     <div>
+        <p>Engineering Manager</p>
+        <p>875 Jobs</p>
+     </div>
+</div>
+ <div>
+    <div>
+        <p>Mobile / App Developer</p>
+        <p>1.6K+ Jobs <span></span></p>
+     </div>
+     <div>
+        <p>DevOps Engineer</p>
+        <p>1.2K+ Jobs</p>
+     </div>
+     <div>
+        <p>Technical Lead</p>
+        <p>15.1K+ Jobs</p>
+     </div>
+ </div>
+</div>
+<script src="/js/slider.js" type="text/javascript"></script>
 </body>
-
 </html>
