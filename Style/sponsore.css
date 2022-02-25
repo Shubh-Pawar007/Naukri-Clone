@@ -1,0 +1,29 @@
+#sponsore{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h2{
+    text-align: center;
+}
+#sponsore > div{
+    background: #FFFFFF;
+    border: 1px solid #D3E1EA;
+    border-radius: 100px;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 500;
+    padding: 7px 12px;
+    margin: 6px 4px;
+    display: inline-block;
+    color: #445578;
+    cursor: pointer;
+}
+#sponsore > div:first-child{
+    background: #FFF1ED;
+    border: 1px solid #FFBFAD;
+    font-weight: 600;
+    color: #1B2437;
+}

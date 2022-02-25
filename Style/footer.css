@@ -1,0 +1,51 @@
+a{
+    text-decoration: none;
+}
+
+#footer{
+    display: grid;
+    grid-template-columns: 20% 15% 15% 15% 33%;
+    width: 96%;
+    margin: auto;
+    height: 300px;
+    align-items: center;
+}
+#footer > div{
+    
+    height: 150px;
+}
+#footer > div > img{
+    margin-top: 20px;
+}
+/* #footer > div > p {
+    color: #8292B4;
+} */
+#connectUs > p{
+    color: #445578;
+}
+.footpcolor > p > a{
+    color: #445578;
+}
+#appStore{
+    margin-left: 20px;
+    padding-left: 40px;
+    background: #fff;
+    border: 1px solid #D3E1EA;
+    border-radius: 8px;
+    
+}
+#appStore > p:first-child{
+    font-weight: 600;
+    
+}
+#appStore > p:nth-child(2){
+    color: #445578;
+}
+#socailLogo{
+    display: flex;
+    gap: 15px;
+}
+#appLogo {
+    display: flex;
+    gap: 10px;
+}
