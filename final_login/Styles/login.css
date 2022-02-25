@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+    color: #666;    
+}
+/* For Navbar */
+#navbar {
+    margin: auto;
+    width: 60%;
+    height: 70px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;                        
+}
+
+#navbar > div:first-child{
+    width: 18%;
+    height: 70%;            
+}
+#navbar > div:last-child{
+    width:70%;
+    height: 70%;            
+}
+
+#links {
+    display: flex;
+    justify-content: space-between;
+}
+
+#links >div {
+    line-height: 24px;          
+}
+
+#links a {
+    text-decoration: none;
+    color: #666;
+    text-transform:uppercase; 
+    font-size: 12px;
+    font-weight: bold;           
+}
+hr {
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 12%), 0 2px 2px 0 rgb(0 0 0 / 15%);
+}
+/* over */
+
+/* for Resiter and login part */
+#container {
+    margin: auto;
+    width: 60%;
+    height: 600px;
+    margin-top: 50px;                        
+    display: flex;
+    justify-content: space-between;
+
+}
+#container > #feature {
+    width: 60%;
+    height: 450px;
+    margin-top: 25px;
+    padding-left: 25px;
+    line-height: 30px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%),
+     0 1px 2px 0 rgb(0 0 0 / 10%), 0 2px 20px 0 rgb(0 0 0 / 20%);
+}
+#container > #loginPart {
+    width: 45%;
+    height: 500px;
+    padding: 5%;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%), 0 1px 2px 0 rgb(0 0 0 / 10%), 0 2px 20px 0 rgb(0 0 0 / 20%);
+}
+/* over */
+
+/* feature related */
+h3 {
+    color: #091e42;
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 28px;
+    text-align: left;
+}
+
+#register {
+    background-color: #fff;
+    border: 1px solid #4a90e2;
+    border-radius: 2px;
+    color: #4a90e2;
+    width: 50%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#point {
+    padding-left: 10px;
+}
+
+.registerimage {
+    position: absolute;    
+    width: 227px;
+    height: 151px;
+} 
+#symRegister {
+    text-align: center;
+} 
+/* over */
+
+/* login details */
+
+input, #login {
+    display: block;
+    margin: 20px 0px;
+    font-size: 15px;
+    padding: 3%;
+    width: 90%;
+    
+}
+
+#form > p{
+    font-size: 13px;
+    color: black;
+    font-weight: bold;
+}
+#form > #login {
+    width: 90%;
+    height: 40px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    text-align: center;           
+}
+
+#form #result {
+    text-align: center;
+    text-decoration-color: red;
+}
+#form .otp {
+    color: #4a90e2;
+    text-align: center;
+}     
+
+#form > hr {
+    box-shadow: none;
+    width: 90%;
+    margin: 15px 0px;   
+    
+}
+
+.socialbtn{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 12%), 0 2px 2px 0 rgb(0 0 0 / 15%);
+    border-radius: 20px;
+    cursor: pointer;
+    width: 90%;
+}
+
+.socialbtn img {
+    width: 18px;
+    height: 18px;
+    margin: 11px 11px 11px 16px;
+    background-size: 18px 18px;
+}
+.socialbtn p {
+    margin-left: 56px;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    letter-spacing: .4px;
+    line-height: 16px;
+    text-align: left;
+} 

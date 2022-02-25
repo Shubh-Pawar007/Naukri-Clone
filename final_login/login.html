@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Styles/login.css" />
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo">
+            <a class="nLogo fl" href="">
+                <img src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png"
+                 alt="Naukri.com, India’s No.1 Job Site">
+            </a>            
+        </div>
+        <div id="links">
+            <div><a href="jobs.html">JOBS</a></div>
+            <div><a href="">RECRUITERS</a></div>
+            <div><a href="companies">COMPANIES</a></div>
+            <div><a href="">TOOLS</a></div>
+            <div><a href="services.html">SERVICES</a></div>
+            <div><a href="login.html">LOGIN</a></div>
+            <div><a href="">FOR EMPLOYERS</a></div>
+        </div>    
+    </div>
+    <hr>
+    <div id="container">
+        <div id="feature">
+            <h3>New to Naukri</h3>
+            <ul id="point">
+                <li>One click apply using naukri profile.</li>
+                <li>Get relevant job recommendations.</li>
+                <li>Showcase profile to top companies and consultants.</li>
+                <li>Know application status on applied jobs.</li>
+            </ul>
+            <div onclick="window.location.href='register.html'" id="register">Register Now</div>
+            <!-- <input type="submit" value="Register for Free" id="submit"> -->
+            <div id="symRegister">
+                <img src="//static.naukimg.com/s/5/105/i/register.png" class="registerimage">
+            </div>                 
+        </div>
+        <div id="loginPart">
+            <form id="form">
+                <h3>Login</h3>
+                <p>Email ID / Username</p>
+                <input type="email" placeholder="Enter Email ID/username" id="email">
+                <p>Password</p>
+                <input type="password" placeholder="Enter Password" id="pass">                
+                <input type="submit" id="login" value="Login" >
+                <p id="result"></p>
+                <p class="otp">Use OTP to Login</p>                
+                <hr>
+                <a class="socialbtn">
+                    <img class="google-icon" src="//static.naukimg.com/s/5/105/i/ic-google.png">
+                    <p>Sign in with Google</p>
+                </a>
+            </form>
+        </div>
+    </div> 
+    <script src="./Script/login.js"></script>  
+    
+</body>
+</html>
