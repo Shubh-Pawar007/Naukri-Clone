@@ -1,15 +1,16 @@
-var newdata=JSON.parse(localStorage.getItem("savedJob"))||[];
+var newdata=JSON.parse(localStorage.getItem("savedJob"));
  console.log(newdata);
 
+ DisplayData(newdata);
 //var saveJobarr= localStorage.setItem("savedJob",JSON.stringify(data))||[];
 
 //console.log(saveJobarr)
 
+    function DisplayData(newdata)
+    {
+        document.querySelector("#jobs").innerHTML="";
 
-
-    //document.querySelector("#jobs").innerHTML="";
-
-    newdata.map(function (elem){
+        newdata.map(function (elem){
         var innerdiv= document.createElement("div");
         innerdiv.setAttribute("class","innerdiv");
         var p=document.createElement("h3");
@@ -34,5 +35,8 @@ var newdata=JSON.parse(localStorage.getItem("savedJob"))||[];
         document.querySelector("#jobs").append(innerdiv);
 
     })
+    }
+
+    
 
 

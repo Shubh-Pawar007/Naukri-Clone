@@ -165,7 +165,7 @@ h1 {
 }
 
 .resume {
-    width: 70%;
+    width: 75%;
     height: 40px;
     border: 1px solid #84858a; 
     border-radius: 20px;
@@ -174,7 +174,7 @@ h1 {
 }
 
 .resume >div {
-    width: 30%;
+    width: 35%;
     height: 30px;
     background: #ff7555;
     border-radius: 20px;
@@ -235,8 +235,9 @@ h1 {
     background: #fff;
     box-shadow: 0 0 2px 0 rgb(0 0 0 / 12%), 0 2px 2px 0 rgb(0 0 0 / 15%);
     border-radius: 20px;
-    width: 75%;
+    width: 85%;
     height: 30px;
+    padding-right: 10px;
 }
 
 .google-box > h3 {

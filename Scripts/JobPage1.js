@@ -34,11 +34,12 @@ data.map(function (elem){
   document.querySelector("#jobs").append(innerdiv);
 
   // Save Job Fuctionality 
-  function saveJob(elem){
-    console.log(elem);
-    saveJobarr.push(elem)
-    console.log(saveJobarr);
-    localStorage.setItem("savedJob",JSON.stringify(saveJobarr));
-  }
+  
 })
+function saveJob(elem){
+  console.log(elem);
+  saveJobarr.push(elem)
+  console.log(saveJobarr);
+  localStorage.setItem("savedJob",JSON.stringify(saveJobarr));
+}
 

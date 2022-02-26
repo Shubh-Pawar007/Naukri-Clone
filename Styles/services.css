@@ -22,7 +22,7 @@ body{
 #mid{
     display: flex;
     justify-content: space-evenly ;
-    width: 45%;
+    width: 65%;
 }
 #mid>div,#last>div{
     margin-top: 20px;
