@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar -->
+
+        <div id="navbar">
+            <div class="left-nav">
+               <a href="index.html" target="_blank">
+                   <img src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png">
+               </a>
+            </div>
+            <div class="middle-nav">
+               <div><a href="#">Jobs</a></div>
+               <div><a href="#">Companies</a></div>
+               <div><a href="#">Services</a></div>
+               <div><a href="#">Resources</a></div>
+            </div>
+            <div class="right-nav">
+               <a href="login.html" target="_blank"><button class="loginbtn">Login</button></a>
+               <a href="register.html" target="_blank"><button class="registerbtn">Register</button></a>
+               <div id="pipe"></div>
+               <div id="emp">For employers</div><span class="drpdwn"></span>
+            </div>
+     </div>
+
+    <!-- Header -->
+
+     <div class="header">
+          <h1>Find your dream job now</h1>
+          <div>5 lakh+ jobs for you to explore</div>
+     </div>
+
+    <!-- Search -->
+
+    <div class="Wrapper ">
+         <div>
+             <div class="logoContainer">
+                 <img src="https://static.naukimg.com/s/7/103/i/search.9ec0e1ac.svg" id="searchIcon">
+                    <input type="text" placeholder="Enter Skills / designations / companies" class="sugginput" id="input1">
+                    <div class="pipe1"></div>
+                    <input type="text" placeholder="Enter location" class="sugginput" id="input2">
+                    <div class="pipe1"></div>
+                    <select id="input3" class="sugginput">
+                            <option value="" hidden>Select Experience</option>
+                            <!-- Available Options -->
+                            <option value="1">Freshers</option>
+                            <option value="2">1 year</option>
+                            <option value="3">2 years</option>
+                            <option value="4">3 years</option>
+                            <option value="5">4 years</option>
+                            <option value="6">5 years</option>
+                            
+                    </select>
+                   
+                    <input type="submit" class="search" value="Search">
+             </div>
+         </div>
+    </div>
+    <!-- Widget -->
+    <div class="widget-container">
+        <div class="wid-head-container">
+            <div>1. Get discovered
+               <img src="https://static.naukimg.com/s/7/0/assets/images/src/widgets/naukri-homepage-register-wdgt/v1/assests/arrow.d7d6b137.svg">
+            </div>
+            <div>2. Get contacted</div>
+            <div>3. Get hired</div>
+        </div>
+        <div class="widget-logo">
+            <div>
+                <img src="https://img.naukimg.com/logo_images/groups/v1/36136.gif" alt="">
+                <img src="https://img.naukimg.com/logo_images/groups/v1/7450.gif" alt="">
+
+                
+            </div>
+            <div>
+                <img src="https://img.naukimg.com/logo_images/groups/v1/619188.gif" alt="">
+                <img src="https://img.naukimg.com/logo_images/groups/v1/614576.gif" alt="">
+            </div>
+        </div>
+        <div class="detail-container">
+            <div>Become searchable by top companies in your domain</div>
+            <div>Companies search for candidate CVs directly for open positions</div>
+            <a href="#" style="text-decoration: none;">Register Now</a>
+        </div>
+    </div>
+
+    <!-- Trending Companies -->
+
+    <h2 id="trendHead">Trending on Naukri today</h2>
+    <div id="trendContainer">
+       <div>
+           <img src="https://static.naukimg.com/s/0/0/i/trending-naukri/remote.svg">
+           <div style="display: flex; justify-content: center;">
+            <a id="trendName" style="text-decoration: none;">Remote</a>
+            <img src="https://static.naukimg.com/s/7/0/assets/images/src/common/components/assets/arrow.77068bf0.png" id="trendLogo">
+           </div>
+           <p id="count">5.9K+ &nbsp; Jobs
+            </p>
+       </div>
+       <div>
+          <img src="https://static.naukimg.com/s/0/0/i/trending-naukri/mnc.svg">
+          <div style="display: flex; justify-content: center;">
+           <a id="trendName" style="text-decoration: none;">MNC</a>
+           <img src="https://static.naukimg.com/s/7/0/assets/images/src/common/components/assets/arrow.77068bf0.png" id="trendLogo">
+          </div>
+          <p id="count">20.9K+ &nbsp; Jobs
+         </p>
+       </div>
+       <div> <img src="https://static.naukimg.com/s/0/0/i/trending-naukri/freshers.svg">
+        <div style="display: flex; justify-content: center;">
+         <a id="trendName" style="text-decoration: none;">FRESHER</a>
+         <img src="https://static.naukimg.com/s/7/0/assets/images/src/common/components/assets/arrow.77068bf0.png" id="trendLogo">
+        </div>
+        <p id="count">53.2K+ &nbsp; Jobs
+       </p></div>
+       <div> <img src="https://static.naukimg.com/s/0/0/i/trending-naukri/temporary-wfh.svg">
+        <div style="display: flex; justify-content: center;">
+         <a id="trendName" style="text-decoration: none;">Temp WFH</a>
+         <img src="https://static.naukimg.com/s/7/0/assets/images/src/common/components/assets/arrow.77068bf0.png" id="trendLogo">
+        </div>
+        <p id="count">23.3K+ &nbsp; Jobs
+       </p></div>
+       <div> <img src="https://static.naukimg.com/s/0/0/i/trending-naukri/software.svg">
+        <div style="display: flex; justify-content: center;">
+         <a id="trendName" style="text-decoration: none;">Software & IT</a>
+         <img src="https://static.naukimg.com/s/7/0/assets/images/src/common/components/assets/arrow.77068bf0.png" id="trendLogo">
+        </div>
+        <p id="count">206K+ &nbsp; Jobs
+       </p></div>
+    </div>
+
+    <!-- Featured Companies -->
+
+    <h2 id="featureHead">Featured companies actively hiring</h2>
+    <div id="featureContainer">
+        <div>
+            <img src="https://img.naukimg.com/logo_images/groups/v2/2436002.gif" class="featureLogo">
+            <div class="featureContent">
+                <h3>Xoriant</h3>
+                <span class="star"><img src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg"></span>
+                <span class="rating">4.1</span>
+                <span class="review">334 reviews</span>
+            </div>
+            <div>
+                <p class="desc">Product Engineering, software and IT services...</p>
+            </div>
+            <div class="jobView"><a>View jobs</a></div>
+        </div>
+        
+        <div>
+            <img src="https://img.naukimg.com/logo_images/groups/v2/2114.gif" class="featureLogo">
+            <div class="featureContent">
+                <h3>Tech Mahindra</h3>
+                <span class="star"><img src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg"></span>
+                <span class="rating">3.7</span>
+                <span class="review">15.2K+ reviews</span>
+            </div>
+            <div>
+                <p class="desc">Global Leader in digital transformation services</p>
+            </div>
+            <div class="jobView"><a>View jobs</a></div>
+        </div>
+
+        <div>
+            <img src="https://img.naukimg.com/logo_images/groups/v2/4156.gif" class="featureLogo">
+            <div class="featureContent">
+                <h3>Cognizant</h3>
+                <span class="star"><img src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg"></span>
+                <span class="rating">3.9</span>
+                <span class="review">20.2K+ reviews</span>
+            </div>
+            <div>
+                <p class="desc">Leading ITeS company with global presence.</p>
+            </div>
+            <div class="jobView"><a>View jobs</a></div>
+        </div>
+
+        <div>
+            <img src="https://img.naukimg.com/logo_images/groups/v2/194354.gif" class="featureLogo">
+            <div class="featureContent">
+                <h3>HCL</h3>
+                <span class="star"><img src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg"></span>
+                <span class="rating">3.8</span>
+                <span class="review">15.7K+ reviews</span>
+            </div>
+            <div>
+                <p class="desc">Globally acclaimed tech company since 1991</p>
+            </div>
+            <div class="jobView"><a>View jobs</a></div>
+        </div>
+
+        <div>
+            <img src="https://img.naukimg.com/logo_images/groups/v2/216316.gif" class="featureLogo">
+            <div class="featureContent">
+                <h3>UST</h3>
+                <span class="star"><img src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg"></span>
+                <span class="rating">4.0</span>
+                <span class="review">1.6K+ reviews</span>
+            </div>
+            <div>
+                <p class="desc">Global digital transformation solutions provider</p>
+            </div>
+            <div class="jobView"><a>View jobs</a></div>
+        </div>
+        <div id="viewCompanyContainer"><a id="viewCompany">View all Companies</a></div>
+    </div>
+    
+<!-- Discover job div -->
+
+
+<!-- Video Profile -->
+<div id="videoProfile">
+    <div>
+        <h3 class="vidproTitle">Stand out among recruiters with a video profile</h3>
+        <p>Available for both Android and iOS apps</p>
+        <form>
+            <input type="text" placeholder="Enter mobile number..." id="videoInput">
+            <input type="submit" value="Get link" id="videoSubmit">
+        </form>
+        <div id="videoLogo">
+            <a href="#"><img src="https://static.naukimg.com/s/0/0/i/download-app-link/Gplay.png"></a>
+            <a href="#"><img src="https://static.naukimg.com/s/0/0/i/download-app-link/Appstore.png"></a>
+        </div>
+    </div>
+        <div id="qrContainer">
+            <img src="https://static.naukimg.com/s/0/0/i/download-app-link/qr-code.svg" id="qrCode">
+            <p>Scan to download</p>
+        </div>
+    
+    <div><img src="https://static.naukimg.com/s/0/0/i/download-app-link/MaskGroup_v4.png"></div>
+</div>
+
+<!-- Footer -->
+<div id="footer">
+    <div>
+        <img src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png">
+        <div id="connectUs">
+            <p>Connect with us</p>
+            <div id="socailLogo">
+              <a href="https://www.facebook.com/Naukri" target="_blank"><img src="https://static.naukimg.com/s/0/0/i/new-homepage/facebook.svg"></a>
+              <a href="https://www.instagram.com/naukridotcom/" target="_blank"><img src="https://static.naukimg.com/s/0/0/i/new-homepage/instagram.svg"></a>
+              <a href="https://twitter.com/naukri" target="_blank"><img src="https://static.naukimg.com/s/0/0/i/new-homepage/twitter.svg"></a>
+              <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQE3CSDBjqbdMQAAAX8voZFA3Yp3b-4jxL4noNA9hCdXwssObZlAlpzUEo9ZF3LPwML5qDN7CYj4SFHIuvlTzValI0NbvAbJiEXpjjLeQC7mDDSQQN1zpBmtQpcLMKb9sZVu660=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fnaukri.com" target="_blank"><img src="https://static.naukimg.com/s/0/0/i/new-homepage/linkedin.svg"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footpcolor">
+        <p><a href="#">About us</a></p>
+        <p><a href="#">Careers</a></p>
+        <p><a href="#">Employer home</a></p>
+        <p><a href="#">Sitemap</a></p>
+    </div>
+    <div class="footpcolor">
+        <p><a href="#">Help center</a></p>
+        <p><a href="#">Summons/Notices</a></p>
+        <p><a href="#">Grievances</a></p>
+        <p><a href="#">Report issue</a></p>
+    </div>
+    <div class="footpcolor">
+        <p><a href="#">Privacy policy</a></p>
+        <p><a href="#">Terms & conditions</a></p>
+        <p><a href="#">Fraud alert</a></p>
+        <p><a href="#">Trust & safety</a></p>
+    </div>
+    <div id="appStore">
+        <p>Apply on the go</p>
+        <p>Get real-time job updates on our App</p>
+        <div id="appLogo">
+           <a href="https://play.google.com/store/apps/details?id=naukriApp.appModules.login&hl=en&utm_source=naukri&utm_medium=footer" target="_blank"><img src="https://static.naukimg.com/s/0/0/i/new-homepage/android-app.png"></a>
+           <a href="https://apps.apple.com/in/app/naukri-com-job-search/id482877505" target="_blank"><img src="https://static.naukimg.com/s/0/0/i/new-homepage/ios-app.png"></a>
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+</html>
+
+    
