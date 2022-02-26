@@ -100,7 +100,17 @@ We All Contributer build this project.We all face some problems.
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ramanjeet-singh-212430190/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ramanjeet1998)
 
+## FAQ
 
+#### which Api you use for database
+
+Web local storage Api
+
+#### Did you use bootstrap for style
+
+No
+
+####Other Common Github Profile Sections
 -👋 Hi, I’m @gzbsingh
 
 -👀 I’m interested in web developing
