@@ -4,13 +4,6 @@
 Its a web application that provides hiring-related services to placement agencies and  job seekers in India and overseas.
 
 
-## Acknowledgements
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-
 ## Tech Stack
 
 **Client:** Html ,Css
@@ -51,7 +44,7 @@ Start the server
 
 ## Support
 
-For support, email gentalman1945@gmail.com 
+For support, email -gentalman1945@gmail.com 
 
 
 ## Screenshots
@@ -59,15 +52,6 @@ For support, email gentalman1945@gmail.com
 ![App Screenshot](https://ibb.co/sF5fb93)
 
 
-## Installation
-
-Install my-project with npm
-
-```bash
-  npm install my-project
-  cd my-project
-```
-    
 ## Contributing
 
 Contributions are always welcome!
@@ -95,23 +79,6 @@ https://imgur.com/a/AkgK9MJ
 [Documentation](https://linktodocumentation)
 
 
-## Used By
-
-This project is used by the following companies:
-
-- Company 1
-- Company 2
-
-
-## Running Tests
-
-To run tests, run the following command
-
-```bash
-  npm run test
-```
-
-
 ![Logo](https://static.naukimg.com/s/4/100/i/naukri_Logo.png)
 
 ## Lessons Learned
@@ -122,7 +89,7 @@ We All Contributer build this project.We all face some problems.
 
 ## Features
 
-- Light/dark mode toggle
+
 - Live previews
 - Fullscreen mode
 - Cross platform
