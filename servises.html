@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"/>
+    <title>Document</title>
+    <style>
+
+        body{
+            font-family: Robot,sans-serif;
+            background-color: rgb(250,250,250);
+        }
+
+        #navbar{
+            display: flex;
+            height: 75px;
+            box-shadow:0 1px 1px 0 rgb(0 0 0 / 5%), 
+            0 1px 2px 0 rgb(0 0 0 / 10%), 
+            0 2px 20px 0 rgb(0 0 0 / 20%);
+        }
+        #nlogo{
+            
+            width: 20%;
+            /* border: 1px solid blue; */
+        }
+        #nlogo>img{
+            padding-left: 25px;
+            padding-top: 15px;
+        }
+        #mid{
+            display: flex;
+            justify-content: space-evenly ;
+            width: 45%;
+        }
+        #mid>div,#last>div{
+            margin-top: 20px;
+            font-size: 12px;
+            line-height:24px;
+        }
+        #last{
+            display: flex;
+            justify-content: center;
+            width: 35%;            
+        }
+        #last>img{
+            margin-top: 20px;
+            height: 25px;
+            width: 25px;
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        /* navbar over */
+
+        /*below head part  */
+        .head1 {
+            text-align: center;
+            height: 50px;
+            background-color: #fec923;
+            border: 1px solid #fec923;            
+        }
+
+        .head2 {
+            text-align: center;
+            height: 250px;
+            border: 1px solid black;
+            background-color: #1c2c56; 
+            color: aliceblue;                     
+        }
+
+        .head2 > h1 {
+            font-weight: 400;
+            line-height: 1px;
+        }
+        /* container1 */
+        #cont1, #cont3 {
+            width: 60%;
+            height: 350px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;            
+            margin-top: -150px;
+
+        }
+
+        .sub {
+            box-shadow:0 1px 1px 0 rgb(0 0 0 / 5%), 
+            0 1px 2px 0 rgb(0 0 0 / 10%), 
+            0 2px 20px 0 rgb(0 0 0 / 20%);
+            background-color: white;
+            padding-left: 10px;
+        }
+
+        .left-box {
+            width: 30%;
+            font-size: 9px;
+            float: right;
+            top: 5px;       
+            text-align: center;           
+            color: #fdfdfd;
+            background: #f48238;
+            height: 20px;
+            line-height: 20px; 
+
+        }
+        .box-img {
+            width: 100%;
+            height: 100px;
+            margin: auto;
+            margin-bottom: 60px;
+                    
+        } 
+        .top {
+            font-size: 11px;
+        }
+
+        .mid , .cont2 > div:last-child > h5 {
+            font-weight: 400;
+            color: #6e6271;
+        }
+
+        .bott {
+            color: #6e6271;
+            font-size: 13px;
+        }
+
+        .sub-start {
+            color: #a79fa7;
+            font-size: 13px;
+            line-height: 30px;
+        }
+
+        .price {
+            width: 100%;
+            height: 20px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: -15px;
+            
+        }
+
+        .pri {
+            width: 60%;
+            font-size: 13px;      
+        }
+        .know {
+            width: 30%;
+            font-size: 14px;
+            color: #5dafeb;
+        }
+
+        #mid-one {
+            font-weight: 400;
+            color: #6e6271;
+            line-height: 35px;
+        }
+
+        /* cont2 start */
+        .cont2 {
+            box-shadow:0 1px 1px 0 rgb(0 0 0 / 5%), 
+            0 1px 2px 0 rgb(0 0 0 / 10%), 
+            0 2px 20px 0 rgb(0 0 0 / 20%);
+            width: 60%;
+            height: 250px;
+            margin: auto;
+            margin-top: 15px;  
+            display: flex;
+            /* justify-content: space-between;  */
+        }
+
+        .cont2 > div:first-child {
+            width: 35%;
+            height: 250px;
+        }
+
+        .cont2 > div:last-child {
+            width: 65%;
+            
+        }
+        
+        .lady-img {
+            width: 100%;
+            height: 250px;
+        }
+
+        .left {
+            width: 10%;
+            font-size: 10px;
+            float: right;
+            top: 5px;       
+            text-align: center;           
+            color: #fdfdfd;
+            background: red;
+            height: 20px;
+            line-height: 20px; 
+        }
+
+        .cont2 > div:last-child > h2 {
+            font-weight: 400;
+            padding-left: 20px;
+        }
+
+        .ben {
+            padding-left: 20px;
+        }
+       
+        .list {
+            width: 100%;
+            height: 120px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .list > div:first-child {
+            width: 60%;
+            height: 120px;
+            line-height: 30px;
+            
+        }
+
+        .list > div:last-child {
+            width: 35%;
+            height: 120px;
+        }
+
+        #details {
+            color: #5dafeb;
+            border: 1px solid #064c7e;   
+        }
+
+        #cont3 {
+            margin-top: 20px;
+        }
+
+        #contacts {
+            width: 60%;
+            height: 500px;
+            margin: auto;
+            margin-top: 15px;  
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        #contacts > .phone {
+            width: 48%;
+            background-color: #4297e8;
+            color: white;
+            box-sizing: border-box;
+            padding: 100px;
+            box-shadow:0 1px 1px 0 rgb(0 0 0 / 5%), 
+            0 1px 2px 0 rgb(0 0 0 / 10%), 
+            0 2px 20px 0 rgb(0 0 0 / 20%);
+        }
+
+        #contacts > .info {
+            width: 48%;
+            box-sizing: border-box;
+            padding: 10px;
+            box-shadow:0 1px 1px 0 rgb(0 0 0 / 5%), 
+            0 1px 2px 0 rgb(0 0 0 / 10%), 
+            0 2px 20px 0 rgb(0 0 0 / 20%);
+        }
+
+        .phone > p {
+            font-size: 14px;
+        }
+        .head {
+            font-size: 13px;
+        }
+
+        p + input {
+            width: 80%;
+            height: 30px;
+        }
+
+        #sub {
+            width: 80%;  
+            margin-top: 30px;  
+            height: 40px;
+            background-color: #4297e8;
+            border-radius: 20px;
+        }
+        .cont4 {
+            width: 60%;
+            height: 150px;
+            margin: auto;
+            margin-top: 15px;
+            box-shadow:0 1px 1px 0 rgb(0 0 0 / 5%), 
+            0 1px 2px 0 rgb(0 0 0 / 10%), 
+            0 2px 20px 0 rgb(0 0 0 / 20%);
+            padding-left: 10px;
+            padding-top: 5px;
+        }
+
+        .sample {
+            width: 40%;           
+            display:flex;
+            margin-top: -10px;
+            justify-content: space-between;
+            color: #2f82cf;
+        }
+        .sample > p {
+            font-size: 15px;            
+        }
+        .career{
+            width: 60%;
+            height: 450px;
+            margin: auto;
+            margin-top: 15px;
+            box-shadow:0 1px 1px 0 rgb(0 0 0 / 5%), 
+            0 1px 2px 0 rgb(0 0 0 / 10%), 
+            0 2px 20px 0 rgb(0 0 0 / 20%);
+            padding-left: 10px;
+            padding-top: 5px;
+        }
+        .advice{
+            display: flex;
+            gap: 10px;
+        }
+        .advice>div{
+            
+            height: 350px;
+            width: 60%;
+            gap: 10px;
+        }
+        .advice>div>h5{
+            font-size: 15px;
+            padding-left: 10px;
+        }
+        .advice>div>p{
+            font-size: 15px;
+            color: skyblue;
+            padding-left: 10px;
+        }
+        .advice>div>h4{
+            font-size: 15px;
+            color: #2f82cf;
+            text-align: end;
+            padding-right: 20px;
+            padding-top: 300px;
+        
+        }
+        .payment{
+            display: flex;
+            width: 100%;
+            height: 80px;
+        }
+        #pay{
+            display: flex;
+            width: 40%;
+            margin: auto;    
+        }
+        #pay>div{  
+            width: auto;
+            height: 50px;
+            margin: 5px;
+            }
+            #pay>div>p{
+                font-size: 15px;
+                text-align: justify;
+                }
+            #pay>div>img{
+                    padding-top: 15px;
+                }
+                .footer{
+                    width: 100%;
+                    height: 330px;
+                    background-color: #2e3339;
+                }
+                #foot{
+                    display: flex;
+                    width: 70%;
+                    gap: 20px;
+                    margin: auto;
+                }
+                #foot>div{
+                 width: 70%;
+                 height: 330px;
+                }
+             #foot>div>h6{
+                 font-size: 15px;
+                 color: #ababab;
+                 padding-left: 10px;
+             }
+             #foot>div>p{
+                 font-size: 15px;
+                 color: #ababab;
+                 padding-left: 10px;
+             }
+             .tweet>div:first-child{
+                 display: flex;
+             }
+            .tweet>div:first-child>div>h6{
+                font-size: 15px;
+                color: #ababab;
+            }
+            .icon-color{
+                width: 30px;
+                height: 30px;
+                color: #00b0ed;
+                padding-top: 50px;
+            }
+            .tweet>div:last-child>p{
+                font-size: 15px;
+                color: #ababab;
+                padding-left: 10px;
+            }
+
+
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div id="nlogo">
+            <img src="https://static.naukri.com/s/4/100/i/naukri_Logo.png"/>
+        </div>
+        <div id="mid">
+            <div>RESUME WRITING</div>
+            <div>RECRUITER ATTENTION</div>
+            <div>FIND JOBS</div>
+            <div>MONTHLY SUBSCRIPTION</div>
+            <div>VALUE PACKS</div>
+            <div>CONTACT US</div>
+        </div>
+        <div id="last">
+            <img src="https://static.naukimg.com/s/7/123/i/cart.de6f3dff.png" alt=""/>
+            <div class="employer">LOGIN</div>  
+            <img src="https://cdn-icons.flaticon.com/png/512/4947/premium/4947596.png?token=exp=1645869547~hmac=37e37c85d6ad21cbf4aad8b8d9fde169" alt="">    
+        </div>
+    </div>
+    <div class="head1">
+        <p>Kindly log in to check if you are eligible for Exclusive Naukri Discount</p>
+    </div>
+    <div class="head2">
+        <h1>Move ahead in career, faster</h1>
+        <p>with our paid services</p>
+    </div>
+    <div id="cont1">
+        <div class="sub">
+            <div class="left-box">MOST POPULAR</div>
+            <div class="box-img">
+                <img src="https://static.naukimg.com/s/7/123/i/resumeDisplay.c7a649c3.png" alt="">
+            </div>
+            <p class="top">RESUME DISPLAY</p>
+            <h4 class="mid">Increase your Profile Visibility to recruiters upto 3 times.</h4>
+            <p class="bott">Get a Featured Profile, Stand out get get noticed in recruiter eyes.</p>
+            <p class="sub-start">Subscription starts from</p>
+            <div class="price">
+                <div class="pri">Rs.1949 for 3 Months</div>
+                <div class="know">Know More</div> 
+            </div>            
+        </div>
+        <div class="sub">
+            <div class="left-box">RECOMMENDED</div>
+            <div class="box-img">
+                <img src="https://static.naukimg.com/s/7/123/i/priorityApp.4d581f13.png" alt="">
+            </div>
+            <p class="top">PRIORITY APPLICANT</p>
+            <h4 class="mid">Be a Priority Applicant & increase your chance of getting a call.</h4>
+            <p class="bott">Be the first one to apply and catch recruiter attention</p>
+            <p class="sub-start">Subscription starts from</p>
+            <div class="price">
+                <div class="pri">Rs.881 for 3 Months</div>
+                <div class="know">Know More</div> 
+            </div>
+        </div>
+        <div class="sub">
+            <div class="left-box">RECOMMENDED</div>
+            <div class="box-img">
+                <img src="https://static.naukimg.com/s/7/123/i/jsb-homepage.93423568.png" alt="JOB SEARCH BOOSTER" >
+            </div>
+            <p class="top">JOB SEARCH BOOSTER</p>
+            <h4 id="mid-one">Boost your job search with referrals</h4>
+            <p class="bott">Take help from over 20,000 seniors in top companies like TCS, HCL, Accenture etc.</p>
+            <p class="sub-start">Subscription starts from</p>
+            <div class="price">
+                <div class="pri">Rs.839 for 3 Months</div>
+                <div class="know">Know More</div> 
+            </div>
+        </div>
+        
+    </div>
+    <div class="cont2">
+        <div>
+            <img src="https://static.naukimg.com/s/7/123/i/subscriptionWidget.d8278767.png" class="lady-img" alt="">
+        </div>
+        <div>
+            <div class="left">New</div>
+            <h2>Subscribe to our Monthly Job Search Plan</h2>
+            <h5 class="ben">KEY BENEFITS</h5>
+            <div class="list">
+                <div>
+                    <ul>
+                        <li>Rank higher in Recruiter Searches</li>
+                        <li>Priority Access to Jobs</li>
+                        <li>Send message to Recruiter anytime</li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="sub-start">Subscription starts from</p>
+                    <p class="pri">Rs.839 for 3 Months</p>
+                    <button onclick="window.location.href='subcription.html'" id="details">Know More</button>
+
+                </div>
+            </div>            
+        </div>
+    </div>
+    <div id="cont3">
+        <div class="sub">
+            <div class="left-box">MOST POPULAR</div>
+            <div class="box-img">
+                <img src="https://static.naukimg.com/s/7/123/i/jobs4u.22bb9e85.png" alt="">
+            </div>
+            <p class="top">RESUME DISPLAY</p>
+            <h4 class="mid">Increase your Profile Visibility to recruiters upto 3 times.</h4>
+            <p class="bott">Get a Featured Profile, Stand out get get noticed in recruiter eyes.</p>
+            <p class="sub-start">Subscription starts from</p>
+            <div class="price">
+                <div class="pri">Rs.1949 for 3 Months</div>
+                <div class="know">Know More</div> 
+            </div>            
+        </div>
+        <div class="sub">
+            <div class="left-box">RECOMMENDED</div>
+            <div class="box-img">
+                <img src="https://static.naukimg.com/s/7/123/i/recruiterConn.b993d2e1.png" alt="">
+            </div>
+            <p class="top">PRIORITY APPLICANT</p>
+            <h4 class="mid">Be a Priority Applicant & increase your chance of getting a call.</h4>
+            <p class="bott">Be the first one to apply and catch recruiter attention</p>
+            <p class="sub-start">Subscription starts from</p>
+            <div class="price">
+                <div class="pri">Rs.881 for 3 Months</div>
+                <div class="know">Know More</div> 
+            </div>
+        </div>
+        <div class="sub">
+            <div class="left-box">RECOMMENDED</div>
+            <div class="box-img">
+                <img src="https://static.naukimg.com/s/7/123/i/resumeDisplay.c7a649c3.png" alt="">
+            </div>
+            <p class="top">JOB SEARCH BOOSTER</p>
+            <h4 id="mid-one">Boost your job search with referrals</h4>
+            <p class="bott">Take help from over 20,000 seniors in top companies like TCS, HCL, Accenture etc.</p>
+            <p class="sub-start">Subscription starts from</p>
+            <div class="price">
+                <div class="pri">Rs.839 for 3 Months</div>
+                <div class="know">Know More</div> 
+            </div>
+        </div>        
+    </div>
+    <div id="contacts">
+        <div class="phone">
+            <h4>Talk to Us</h4>
+            <p>Call us Toll Free: 1800-102-5557</p>
+            <p>(9.00Am to 9.00Pm ISt)</p>
+            <p>International Customer Call: +91-120-1421100</p>
+            <p>for bulk queries call: 18001034477</p>
+        </div>
+        <div class="info">
+            <form>
+                <h4>CONTACT US</h4>
+                <p>Our executive will get in touch with you soon</p>
+                <p class="head">Name</p>
+                <input type="text" placeholder="Type ypur name here" id="name">
+                <p class="head">Email ID</p>
+                <input type="email" placeholder="Type your email number" id="email">
+                <p class="head">Mobile</p>
+                <input type="number" placeholder="Type your mobile number" id="num">
+                <p class="head">write your query here</p>
+                <input type="text" placeholder="e.g. I am interested" id="details">
+                <input type="submit" value="CAll ME BACK" id="sub">
+            </form>
+        </div>
+    </div>
+    <div class="cont4">
+        <p>See Samples</p>
+        <hr>
+        <p>View select text resume, visual resume and cover letter samples across industries</p>
+        <div class="sample">
+            <p>text Resume</p>
+            <p>Visual Resume</p>
+            <p>Cover Letter</p>
+        </div>
+    </div>  
+    <div class="career">
+        <p>Career Advice</p>
+        <hr>
+        <div class="advice">
+            <div>
+                <h5>Most Viewed Articles</h5>
+                <p>How to Answer “Tell me about yourself” Question!</p>
+                <p>Tips to Make an Impressive CV</p>
+                <p>Does Your Resume Have The Magic Keywords?</p>
+            </div>
+            <div>
+                <h5>Cover Letter Writing</h5>
+                <p>7 Ways to Make your Cover Letter Recruiter Friendly</p>
+                <p>Common Cover letter mistakes to avoid!</p>
+                <h5>Certification</h5>
+                <p>Aptitude Tests! Know your strengths & weaknesses</p>
+                <p>Background Verification-What Employers Will Discover</p>
+            </div>
+            <div>
+                <h5>Appraisals and Promotions</h5>
+                <p>Looking for a Promotion?</p>
+                <p>Dealing With A Bad Appraisal</p>
+            </div>
+            <div>
+                <h4>VIEW ALL</h4>
+            </div>
+        </div>
+
+    </div> 
+    <div class="payment">
+        <div id="pay">
+        <div><p>Buy Safely with Naukri.com
+            We support secure payment methods</p></div>
+        <div>
+            <img src="https://static.naukimg.com/s/7/123/i/paymentSprite.png" alt="">
+        </div>
+        
+    </div>
+    </div> 
+    <div class="footer">
+     <div id="foot" >
+         <div>
+             <h6>Resume Writing</h6>
+             <p>Text Resume</p>
+             <p>Visual Resume</p>
+             <p>Resume Critique</p>
+             <p>Resume Quality Score</p>
+             <p>Resume Samples</p>
+             <p>Cover Letter Samples</p>
+             <p>Job Letter Samples</p>
+         </div>
+         <div>
+            <h6>Recruiter Reach</h6>
+            <p>Resume Display</p>
+            <p>RecruiterConnection</p>
+            <p>Priority Applicant</p>
+            <p>Certification Highlighter</p>
+         </div>
+         <div>
+             <h6>Enhance Profile</h6>
+             <p>Learning & Certifications</p>
+             <p>Online Aptitude Test</p>
+         </div>
+         <div>
+             <h6>Find Jobs</h6>
+             <p>Jobs4U</p>
+             <p>Value Pack</p>
+         </div>
+         <div>
+             <div class="tweet">
+                 <div>
+                 <div>
+                    <i class="fab fa-twitter-square icon-color"></i>
+                 </div>
+                 <div>
+                   <h6>For quick query resolution
+                    Tweet to us</h6> </div>
+             </div>
+             <div>
+                 <p>Provide your feedback</p>
+                 <p>Sitemap</p>
+                 <p>Customer Support service</p>
+                 <p>Fastforward Outbound Numbers</p>
+             </div>
+         </div>
+     </div>
+    </div>
+</body>
+</html>
