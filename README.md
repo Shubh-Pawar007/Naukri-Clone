@@ -106,6 +106,7 @@ We All Contributer build this project.We all face some problems.
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ramanjeet1998)
 [![linkedin](linkedin.com/in/shubham-pawar-2b7a30124)
 [![linkedin](https://www.linkedin.com/in/musharrat-jaha-a53a511a5/)
+[![linkedin](linkedin.com/in/priya-deshmukh-29a759130)
 
 ## FAQ
 
