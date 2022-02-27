@@ -65,7 +65,7 @@ See  list of contributors who participated in this project.
 https://github.com/Shubh-Pawar007/Naukri-Clone/graphs/contributors
 ## Demo
 
-https://imgur.com/a/AkgK9MJ
+https://practical-wilson-0e6184.netlify.app
 
 
 ## Authors
@@ -73,10 +73,15 @@ https://imgur.com/a/AkgK9MJ
 - [Subham Pawar](https://github.com/Shubh-Pawar007)
 
 - [Priya Deshmukh](https://github.com/deshmukh612)
+- [Aun Mohammad](https://github.com/aun0545088)
+- [Ramanjeet Singh](https://github.com/gzbsingh)
+- [Musharrat Jaha Afsar Baig](https://github.com/mush1998)
+- [Bhoop Singh](https://github.com/bhupirao)
 
 ## Documentation
 
-[Documentation](https://linktodocumentation)
+[Documentation](https://medium.com/@aun0545088/construct-week-project-b8cb79bb6cb3)
+
 
 
 ![Logo](https://static.naukimg.com/s/4/100/i/naukri_Logo.png)
@@ -110,13 +115,3 @@ Web local storage Api
 
 No
 
-####Other Common Github Profile Sections
--👋 Hi, I’m @gzbsingh
-
--👀 I’m interested in web developing
-
-🌱 I’m currently learning java script
-
-💞️ I’m looking to collaborate on js base project
-
-📫 you can reach me on gentalman1945@gmail.com
