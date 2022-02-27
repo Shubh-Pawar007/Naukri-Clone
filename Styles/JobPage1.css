@@ -150,6 +150,7 @@ p{
     padding-left: 20px;
     font-size: 18px;
     color: #091e42;
+    cursor: pointer;
 }
 #SavedJobs{
     height: 30px;
