@@ -70,7 +70,7 @@ https://practical-wilson-0e6184.netlify.app
 
 ## Authors
 
-- [Subham Pawar](https://github.com/Shubh-Pawar007)
+- [Shubham Pawar](https://github.com/Shubh-Pawar007)
 
 - [Priya Deshmukh](https://github.com/deshmukh612)
 - [Aun Mohammad](https://github.com/aun0545088)
